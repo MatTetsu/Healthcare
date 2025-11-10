@@ -6,11 +6,11 @@
 
 
 ## Dataset Content
-The dataset I chose was https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance despite being 50,000 rows long I shortened it to 10,000
+The dataset I chose was (https://www.kaggle.com/datasets/prasad22/healthcare-dataset) despite being 50,000 rows long I shortened it to 10,000
 
 
 ## Business Requirements
-* Describe your business requirements
+The business goal of this dataset is to predict other patients likelyhood to get a certain medical condition to help give them the correct attention.
 
 
 ## Hypothesis and how to validate?
