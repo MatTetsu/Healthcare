@@ -31,8 +31,13 @@
 * How did you use generative AI tools to help with ideation, design thinking and code optimisation?
 
 ## Ethical considerations
-* Were there any data privacy, bias or fairness issues with the data?
-* How did you overcome any legal or societal issues?
+I have deleted the names for data protections, instead I have allocated them a patient ID number so that they can be assessed more closely if necessary.
+
+
+I have deleted the names of the patients for identity protection, but I assigned them a patient ID (randomly) so doctors know who they are
+
+I did also consider dropping the doctor and hospital columns for ethics reasons, but deamed it unnecessary 
+
 
 ## Dashboard Design
 * List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
@@ -64,14 +69,29 @@
 6. If the slug size is too large then add large files not required for the app to the .slugignore file.
 
 
-## Main Data Analysis Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
+## Technology used:
+Github as a cloud 
+VS Code
+Jupyter Notebooks for cleaning and visualising the data
+Python 3.12.8 for writing the code
+Pandas for helping cleaning the data 
+Numpy for helping cleaning the data
+Matplotlib for visualisations
+Seaborn for visualisations
+Plotly for visualisations
+ScikitLearn for machine learning
+PowerBi for visualisations
+ChatGPT to help fix code that was not working
+CoPilot to help fix code that was not working
+
 
 
 ## Credits 
-
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
+I have used stack overflow for help writing the code like the machine learning (https://stackoverflow.com/questions)
+I have used ChatGPT and CoPilot to help me clean code that I was struggling to fix
+I have used he Code Institute LMS for the visualisations within the notebook
+I have asked Neil Lenus, who is a personal friend, to help me work out how to shrink the dataset to a more manageable size
+I have asked Emma and Neil (two staff memebers from Code Institute) for help as I had an issue pushing my commits up to github
 
 ### Content 
 
