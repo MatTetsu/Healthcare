@@ -6,7 +6,7 @@
 
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
+The dataset I chose was https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance despite being 50,000 rows long I shortened it to 10,000
 
 
 ## Business Requirements
