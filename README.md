@@ -72,26 +72,26 @@ I did also consider dropping the doctor and hospital columns for ethics reasons,
 ## Technology used:
 Github as a cloud 
 VS Code
-Jupyter Notebooks for cleaning and visualising the data
-Python 3.12.8 for writing the code
-Pandas for helping cleaning the data 
-Numpy for helping cleaning the data
-Matplotlib for visualisations
-Seaborn for visualisations
-Plotly for visualisations
-ScikitLearn for machine learning
-PowerBi for visualisations
-ChatGPT to help fix code that was not working
-CoPilot to help fix code that was not working
+- Jupyter Notebooks for cleaning and visualising the data
+- Python 3.12.8 for writing the code
+- Pandas for helping cleaning the data 
+- Numpy for helping cleaning the data
+- Matplotlib for visualisations
+- Seaborn for visualisations
+- Plotly for visualisations
+- ScikitLearn for machine learning
+- PowerBi for visualisations
+- ChatGPT to help fix code that was not working
+- CoPilot to help fix code that was not working
 
 
 
 ## Credits 
-I have used stack overflow for help writing the code like the machine learning (https://stackoverflow.com/questions)
-I have used ChatGPT and CoPilot to help me clean code that I was struggling to fix
-I have used he Code Institute LMS for the visualisations within the notebook
-I have asked Neil Lenus, who is a personal friend, to help me work out how to shrink the dataset to a more manageable size
-I have asked Emma and Neil (two staff memebers from Code Institute) for help as I had an issue pushing my commits up to github
+- I have used stack overflow for help writing the code like the machine learning (https://stackoverflow.com/questions)
+- I have used ChatGPT and CoPilot to help me clean code that I was struggling to fix
+- I have used he Code Institute LMS for the visualisations within the notebook
+- I have asked Neil Lenus, who is a personal friend, to help me work out how to shrink the dataset to a more manageable size
+- I have asked Emma and Neil (two staff memebers from Code Institute) for help as I had an issue pushing my commits up to github
 
 ### Content 
 
