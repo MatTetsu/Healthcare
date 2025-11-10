@@ -121,6 +121,8 @@ VS Code
 - I have used he Code Institute LMS for the visualisations within the notebook
 - I have asked Neil Lenus, who is a personal friend, to help me work out how to shrink the dataset to a more manageable size
 - I have asked Emma and Neil (two staff memebers from Code Institute) for help as I had an issue pushing my commits up to github
+- I have watched this video (https://www.youtube.com/watch?v=VaOhNqNtGGE&t=1s) to help me learn Power Bi
+
 
 ### Content 
 
