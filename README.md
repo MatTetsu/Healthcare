@@ -14,7 +14,14 @@ The business goal of this dataset is to predict other patients likelyhood to get
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+People with certain medical conditions tend to go more to certain insurance providers
+
+People with certain medical conditions get billed differently
+
+People with certain blood types are more likely to get a medical conditions
+
+Elderly people are charged more than younger people
+
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.
