@@ -9,7 +9,19 @@ The dataset I chose was (https://www.kaggle.com/datasets/prasad22/healthcare-dat
 
 
 ## Business Requirements
-The business goal of this dataset is to predict other patients likelyhood to get a certain medical condition to help give them the correct attention.
+There is also an anomaly within the billing amount, which has skewed the billing amount visualisations
+<img width="1431" height="806" alt="image" src="https://github.com/user-attachments/assets/39aecfc7-aaf9-48d1-b75a-28af92d7fd2b" />
+This is the first page, which has visualisations linked to blood type. With a pie chart to show the spread of different blood types, this allows us to eyeball if there is too much of a certain bloodtype, so we understand that the specific blood type is not skewing the visualisations by being bigger than others. Next to it we have a Bar graph seperated by medical conditions, this allows us to see if there is a common medical condition with a blood type, for example we can see that cancer is very common with people with o+ blood type. The box plot allows us to see the bounds that people with certain blood types had to pay. This gives us help to compare different blood types to what medical condition is common with that blood type, to then help us predict if someone may be showing symptoms of that condition.
+<img width="1425" height="790" alt="image" src="https://github.com/user-attachments/assets/287b9bad-ed46-4ce7-8fa7-e6142eba7f2d" />
+This is the second page, which has visualisations linked to medical conditions. The pie chart, again, allows us to see if there is any statical skews because there is too many of a certain medical condition, like the blood type one, there is not. There are 2 bar charts here, the first is an inverse of the one on the blood type one, this groups the data differently. The other bar chart is for what medication was given to people with a medical condition, to see what helps certain medical conditions more. lastly is a box plot to help us find the bounds of what people had to pay linked to their medical conditions. This allows us to compare our medical condition column to other columns to see if there is any trends between the two of them.
+<img width="1426" height="656" alt="image" src="https://github.com/user-attachments/assets/bb1dd4ae-4e83-4dde-a5b9-8443d521e1bc" />
+<img width="701" height="634" alt="image" src="https://github.com/user-attachments/assets/60abd2bf-8487-48ef-9080-8deaa56828ca" />
+These here on the third page, do not help with the business requirement of allowing us to predict people getting medical conditions, but instead allow us to know how long someone stayed in the hospital for, depending on how ugently they were admited, and the range of how much they were billed, depending on how long they were in there for.
+<img width="1423" height="797" alt="image" src="https://github.com/user-attachments/assets/6ec69a73-f0e3-45d4-b878-b535805e374a" />
+This is the fourth page, which has visualisations linked to the age ranges. Here in the pie chart, which has a count for the age ranges, we can see that the 75+ and 18-29 ranges are a smaller than the others, (about 1.7k compared to about 2.19k) which may cause statical skews. In the bar chart, which is counting the medicsl conditions split by age ranges, we can see Arthitis is very common with people aged 30-44, but cancer occurs more with that age range, then any others. Lastly we have 2 box plots, one of which shows us the billing amount by age range, and the other with the length of stay instead of the billing amount, this one is to see if older people on average stay in more than people younger than them.
+
+<img width="1416" height="624" alt="image" src="https://github.com/user-attachments/assets/594938e1-68b9-4623-a536-de0f4633053f" />
+Finally, this page is similar to the 3rd page where it doesn't apply well to the business requirements, but it shows the urgentsy of admission there is for the medical conditions, to see if there is a corelation, and the other, being with the medication given instead, to see what is most commonly given to these patients with different admission types.
 
 
 ## Hypothesis and how to validate?
@@ -46,20 +58,8 @@ I did also consider dropping the doctor and hospital columns for ethics reasons,
 
 
 ## Dashboard Design
-There is also an anomaly within the billing amount, which has skewed the billing amount visualisations
-<img width="1431" height="806" alt="image" src="https://github.com/user-attachments/assets/39aecfc7-aaf9-48d1-b75a-28af92d7fd2b" />
-This is the first page, which has visualisations linked to blood type. With a pie chart to show the spread of different blood types, this allows us to eyeball if there is too much of a certain bloodtype, so we understand that the specific blood type is not skewing the visualisations by being bigger than others. Next to it we have a Bar graph seperated by medical conditions, this allows us to see if there is a common medical condition with a blood type, for example we can see that cancer is very common with people with o+ blood type. The box plot allows us to see the bounds that people with certain blood types had to pay.
-<img width="1425" height="790" alt="image" src="https://github.com/user-attachments/assets/287b9bad-ed46-4ce7-8fa7-e6142eba7f2d" />
-This is the second page, which has visualisations linked to medical conditions. The pie chart, again, allows us to see if there is any statical skews because there is too many of a certain medical condition, like the blood type one, there is not. There are 2 bar charts here, the first is an inverse of the one on the blood type one, this groups the data differently. The other bar chart is for what medication was given to people with a medical condition, to see what helps certain medical conditions more. lastly is a box plot to help us find the bounds of what people had to pay linked to their medical conditions.
-<img width="1426" height="656" alt="image" src="https://github.com/user-attachments/assets/bb1dd4ae-4e83-4dde-a5b9-8443d521e1bc" />
-<img width="701" height="634" alt="image" src="https://github.com/user-attachments/assets/60abd2bf-8487-48ef-9080-8deaa56828ca" />
-These here on the third page, do not help with the business requirement of allowing us to predict people getting medical conditions, but instead allow us to know how long someone stayed in the hospital for, depending on how ugently they were admited, and the range of how much they were billed, depending on how long they were in there for.
-<img width="1423" height="797" alt="image" src="https://github.com/user-attachments/assets/6ec69a73-f0e3-45d4-b878-b535805e374a" />
-This is the fourth page, which has visualisations linked to the age ranges. Here in the pie chart, which has a count for the age ranges, we can see that the 75+ and 18-29 ranges are a smaller than the others, (about 1.7k compared to about 2.19k) which may cause statical skews. In the bar chart, which is counting the medicsl conditions split by age ranges, we can see Arthitis is very common with people aged 30-44, but cancer occurs more with that age range, then any others. Lastly we have 2 box plots, one of which shows us the billing amount by age range, and the other with the length of stay instead of the billing amount, this one is to see if older people on average stay in more than people younger than them.
-
-<img width="1416" height="624" alt="image" src="https://github.com/user-attachments/assets/594938e1-68b9-4623-a536-de0f4633053f" />
-Finally, this page is similar to the 3rd page where it doesn't apply well to the business requirements, but it shows the urgentsy of admission there is for the medical conditions, to see if there is a corelation, and the other, being with the medication given instead, to see what is most commonly given to these patients with different admission types.
-
+* Consistent graphs: I used the same graphs on the dashbaord so that they were easy to read in conjuction together.
+* Consistent colouring: I used a consistent colouring across all of the dashboards so that I was overwhelming a user with lots of different colours.
 
 ## Unfixed Bugs
 Within the dataset, there were a few issues that I missed when picking the dataset:
@@ -70,7 +70,7 @@ If I was to put more time into this project then I would work out a way to clean
 
 
 ## Development Roadmap
-An issue I faced with this dataset was that I didn't fully look at the dataset properly when I picked it. In the future I plan to mannually make an edit to the dataset to clean the gender column (by making an educated guess off of their name, this has some issues as some people do not identity with the gender they were assigned at birth, which may have an issue later on) but I would like to use the gender column to see if there is correlations within the dataset for genders to get specific medical conditions, if they were billed differently to others within their gender/medical conditions, or if they were given different medication due to gender. I would also like to try and clean the billing amount properly as it would help properly sort out the bounds people were charged, so it would clean the mean, median, and range of the billing ammounts.
+An issue I faced with this dataset was that I didn't fully look at the dataset properly when I picked it. In the future I plan to mannually make an edit to the dataset to clean the gender column (by making an educated guess off of their name, this has some issues as some people do not identity with the gender they were assigned at birth, which may have an issue later on) but I would like to use the gender column to see if there is correlations within the dataset for genders to get specific medical conditions, if they were billed differently to others within their gender/medical conditions, or if they were given different medication due to gender. I would also like to try and clean the billing amount properly as it would help properly sort out the bounds people were charged, so it would clean the mean, median, and range of the billing ammounts. A concern I had with the dashboards was that I made them too cluttered, but I felt like I had a minimal amount of room, and lots of ideas that I didn't want to make several extra dashboards for.
 
 ## Technology used:
 Github as a cloud 
@@ -114,7 +114,7 @@ Scatter Graphs
 - Date of admission by Discharge Date, and Length of stay, coloured by age ranges
 
 ## Conclusion
-
+This Healthcare prediction project demonstrates how data analytics can be used within healthcare. By using data analysis, statical validation, and machine learning, we have seen what is common to occur, we can then compare a person, age, blood type (would also have gender too) to predict what they might get as a way to pevent this person from getting said condition, or a way to treat it in the early stages.
 ## Credits 
 - I have used stack overflow for help writing the code like the machine learning (https://stackoverflow.com/questions)
 - I have used ChatGPT and CoPilot to help me fix code that I was struggling to fix
