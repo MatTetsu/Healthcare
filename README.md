@@ -23,9 +23,14 @@ Elderly people are charged more than younger people
 
 
 ## Project Plan
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
+* Extract, Transform, Load: Cleaning the data, by checking for missing values, checking for duplicates, and correcting data types.
+* Exploratory Data Analysis: Understanding characteristics, distributions, and relationships within the dataset.
+* Statistical Analysis: Hypothesis testing to validate inital assumptions about feature relationships.
+* Feature Engineering: Adding additional features to the dataset to help with visualisations, Age Ranges, Length of Stay
+* Machine Learning: Training and evaluating baseline predictive models.
+* Dashboarding: Making interactive visualisations in PowerBi.
+* Conclusions: Summarising key findings and providing action recmmendations.
+
 
 ## The rationale to map the business requirements to the Data Visualisations
 * List your business requirements and a rationale to map them to the Data Visualisations
