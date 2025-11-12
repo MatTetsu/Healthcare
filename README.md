@@ -36,18 +36,13 @@ Elderly people are charged more than younger people
 * List your business requirements and a rationale to map them to the Data Visualisations
 
 ## Analysis techniques used
-* List the data analysis methods used and explain limitations or alternative approaches.
-* How did you structure the data analysis techniques. Justify your response.
-* Did the data limit you, and did you use an alternative approach to meet these challenges?
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+* I used Python as its the primary language for data manipulation, analysis, and machine learning. I used python libraries such as Pandas and Numpy to help clean the dataset. I also used the python libraries Matplotlib, Ploty, and Seaborne to help me make visualisations within the Jupyter notebook. I also used Scikitlearn for machine learning.
+* I used PowerBi to make interactive dashboards, I used barcharts, box plots, scatter graphs, and pie charts to show correlations between different columns in the dataset.
 
 ## Ethical considerations
 I have deleted the names for data protections, instead I have allocated them a patient ID number so that they can be assessed more closely if necessary.
-
-
-I have deleted the names of the patients for identity protection, but I assigned them a patient ID (randomly) so doctors know who they are
-
-I did also consider dropping the doctor and hospital columns for ethics reasons, but deamed it unnecessary 
+I have deleted the names of the patients for identity protection, but I assigned them a patient ID (randomly) so doctors know who they ar
+I did also consider dropping the doctor and hospital columns for ethics reasons, but deamed it unnecessary.
 
 
 ## Dashboard Design
@@ -67,21 +62,6 @@ If I was to put more time into this project then I would work out a way to clean
 ## Development Roadmap
 * What challenges did you face, and what strategies were used to overcome these challenges?
 * What new skills or tools do you plan to learn next based on your project experience? 
-
-## Deployment
-### Heroku
-
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
-
-1. Log in to Heroku and create an App
-2. From the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file.
-
 
 ## Technology used:
 Github as a cloud 
@@ -126,7 +106,7 @@ Scatter Graphs
 
 ## Credits 
 - I have used stack overflow for help writing the code like the machine learning (https://stackoverflow.com/questions)
-- I have used ChatGPT and CoPilot to help me clean code that I was struggling to fix
+- I have used ChatGPT and CoPilot to help me fix code that I was struggling to fix
 - I have used he Code Institute LMS for the visualisations within the notebook
 - I have asked Neil Lenus, who is a personal friend, to help me work out how to shrink the dataset to a more manageable size
 - I have asked Emma and Neil (two staff memebers from Code Institute) for help as I had an issue pushing my commits up to github
