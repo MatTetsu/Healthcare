@@ -1,8 +1,7 @@
-# Project XYZ
+# Healthcare trends prediction
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
+This healthcare project aims to predict if other paitents are likely to get a medical condition by looking at common trends within this dataset
 
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 
 ## Dataset Content
