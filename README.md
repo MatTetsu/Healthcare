@@ -36,25 +36,30 @@ Elderly people are charged more than younger people
 * List your business requirements and a rationale to map them to the Data Visualisations
 
 ## Analysis techniques used
-* List the data analysis methods used and explain limitations or alternative approaches.
-* How did you structure the data analysis techniques. Justify your response.
-* Did the data limit you, and did you use an alternative approach to meet these challenges?
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+* I used Python as its the primary language for data manipulation, analysis, and machine learning. I used python libraries such as Pandas and Numpy to help clean the dataset. I also used the python libraries Matplotlib, Ploty, and Seaborne to help me make visualisations within the Jupyter notebook. I also used Scikitlearn for machine learning.
+* I used PowerBi to make interactive dashboards, I used barcharts, box plots, scatter graphs, and pie charts to show correlations between different columns in the dataset.
 
 ## Ethical considerations
 I have deleted the names for data protections, instead I have allocated them a patient ID number so that they can be assessed more closely if necessary.
-
-
-I have deleted the names of the patients for identity protection, but I assigned them a patient ID (randomly) so doctors know who they are
-
-I did also consider dropping the doctor and hospital columns for ethics reasons, but deamed it unnecessary 
+I have deleted the names of the patients for identity protection, but I assigned them a patient ID (randomly) so doctors know who they ar
+I did also consider dropping the doctor and hospital columns for ethics reasons, but deamed it unnecessary.
 
 
 ## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
-* Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
-* How were data insights communicated to technical and non-technical audiences?
-* Explain how the dashboard was designed to communicate complex data insights to different audiences. 
+There is also an anomaly within the billing amount, which has skewed the billing amount visualisations
+<img width="1431" height="806" alt="image" src="https://github.com/user-attachments/assets/39aecfc7-aaf9-48d1-b75a-28af92d7fd2b" />
+This is the first page, which has visualisations linked to blood type. With a pie chart to show the spread of different blood types, this allows us to eyeball if there is too much of a certain bloodtype, so we understand that the specific blood type is not skewing the visualisations by being bigger than others. Next to it we have a Bar graph seperated by medical conditions, this allows us to see if there is a common medical condition with a blood type, for example we can see that cancer is very common with people with o+ blood type. The box plot allows us to see the bounds that people with certain blood types had to pay.
+<img width="1425" height="790" alt="image" src="https://github.com/user-attachments/assets/287b9bad-ed46-4ce7-8fa7-e6142eba7f2d" />
+This is the second page, which has visualisations linked to medical conditions. The pie chart, again, allows us to see if there is any statical skews because there is too many of a certain medical condition, like the blood type one, there is not. There are 2 bar charts here, the first is an inverse of the one on the blood type one, this groups the data differently. The other bar chart is for what medication was given to people with a medical condition, to see what helps certain medical conditions more. lastly is a box plot to help us find the bounds of what people had to pay linked to their medical conditions.
+<img width="1426" height="656" alt="image" src="https://github.com/user-attachments/assets/bb1dd4ae-4e83-4dde-a5b9-8443d521e1bc" />
+<img width="701" height="634" alt="image" src="https://github.com/user-attachments/assets/60abd2bf-8487-48ef-9080-8deaa56828ca" />
+These here on the third page, do not help with the business requirement of allowing us to predict people getting medical conditions, but instead allow us to know how long someone stayed in the hospital for, depending on how ugently they were admited, and the range of how much they were billed, depending on how long they were in there for.
+<img width="1423" height="797" alt="image" src="https://github.com/user-attachments/assets/6ec69a73-f0e3-45d4-b878-b535805e374a" />
+This is the fourth page, which has visualisations linked to the age ranges. Here in the pie chart, which has a count for the age ranges, we can see that the 75+ and 18-29 ranges are a smaller than the others, (about 1.7k compared to about 2.19k) which may cause statical skews. In the bar chart, which is counting the medicsl conditions split by age ranges, we can see Arthitis is very common with people aged 30-44, but cancer occurs more with that age range, then any others. Lastly we have 2 box plots, one of which shows us the billing amount by age range, and the other with the length of stay instead of the billing amount, this one is to see if older people on average stay in more than people younger than them.
+
+<img width="1416" height="624" alt="image" src="https://github.com/user-attachments/assets/594938e1-68b9-4623-a536-de0f4633053f" />
+Finally, this page is similar to the 3rd page where it doesn't apply well to the business requirements, but it shows the urgentsy of admission there is for the medical conditions, to see if there is a corelation, and the other, being with the medication given instead, to see what is most commonly given to these patients with different admission types.
+
 
 ## Unfixed Bugs
 Within the dataset, there were a few issues that I missed when picking the dataset:
@@ -65,23 +70,7 @@ If I was to put more time into this project then I would work out a way to clean
 
 
 ## Development Roadmap
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
-
-## Deployment
-### Heroku
-
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
-
-1. Log in to Heroku and create an App
-2. From the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file.
-
+An issue I faced with this dataset was that I didn't fully look at the dataset properly when I picked it. In the future I plan to mannually make an edit to the dataset to clean the gender column (by making an educated guess off of their name, this has some issues as some people do not identity with the gender they were assigned at birth, which may have an issue later on) but I would like to use the gender column to see if there is correlations within the dataset for genders to get specific medical conditions, if they were billed differently to others within their gender/medical conditions, or if they were given different medication due to gender. I would also like to try and clean the billing amount properly as it would help properly sort out the bounds people were charged, so it would clean the mean, median, and range of the billing ammounts.
 
 ## Technology used:
 Github as a cloud 
@@ -124,19 +113,12 @@ Scatter Graphs
 3D Scatter Graphs
 - Date of admission by Discharge Date, and Length of stay, coloured by age ranges
 
+## Conclusion
+
 ## Credits 
 - I have used stack overflow for help writing the code like the machine learning (https://stackoverflow.com/questions)
-- I have used ChatGPT and CoPilot to help me clean code that I was struggling to fix
+- I have used ChatGPT and CoPilot to help me fix code that I was struggling to fix
 - I have used he Code Institute LMS for the visualisations within the notebook
 - I have asked Neil Lenus, who is a personal friend, to help me work out how to shrink the dataset to a more manageable size
 - I have asked Emma and Neil (two staff memebers from Code Institute) for help as I had an issue pushing my commits up to github
 - I have watched this video (https://www.youtube.com/watch?v=VaOhNqNtGGE&t=1s) to help me learn Power Bi
-
-
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
