@@ -46,7 +46,12 @@ I did also consider dropping the doctor and hospital columns for ethics reasons,
 
 
 ## Dashboard Design
+There is also an anomaly within the billing amount, which has skewed the billing amount visualisations
 <img width="1431" height="806" alt="image" src="https://github.com/user-attachments/assets/39aecfc7-aaf9-48d1-b75a-28af92d7fd2b" />
+This is the first page, which has visualisations linked to blood type. With a pie chart to show the spread of different blood types, this allows us to eyeball if there is too much of a certain bloodtype, so we understand that the specific blood type is not skewing the visualisations by being bigger than others. Next to it we have a Bar graph seperated by medical conditions, this allows us to see if there is a common medical condition with a blood type, for example we can see that cancer is very common with people with o+ blood type. The box plot allows us to see the bounds that people with certain blood types had to pay.
+<img width="1425" height="790" alt="image" src="https://github.com/user-attachments/assets/287b9bad-ed46-4ce7-8fa7-e6142eba7f2d" />
+This is the second page, which has visualisations linked to medical conditions. The pie chart, again, allows us to see if there is any statical biases because there is too many of a certain medical condition, like the blood type one, there is not. There are 2 bar charts here, the first is an inverse of the one on the blood type one, this groups the data differently. The other bar chart is for what medication was given to people with a medical condition, to see what helps certain medical conditions more. lastly is a box plot to help us find the bounds of what people had to pay linked to their medical conditions.
+
 
 
 ## Unfixed Bugs
