@@ -60,8 +60,7 @@ If I was to put more time into this project then I would work out a way to clean
 
 
 ## Development Roadmap
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
+An issue I faced with this dataset was that I didn't fully look at the dataset properly when I picked it. In the future I plan to mannually make an edit to the dataset to clean the gender column (by making an educated guess off of their name, this has some issues as some people do not identity with the gender they were assigned at birth, which may have an issue later on) but I would like to use the gender column to see if there is correlations within the dataset for genders to get specific medical conditions, if they were billed differently to others within their gender/medical conditions, or if they were given different medication due to gender. I would also like to try and clean the billing amount properly as it would help properly sort out the bounds people were charged, so it would clean the mean, median, and range of the billing ammounts.
 
 ## Technology used:
 Github as a cloud 
@@ -104,6 +103,8 @@ Scatter Graphs
 3D Scatter Graphs
 - Date of admission by Discharge Date, and Length of stay, coloured by age ranges
 
+## Conclusion
+
 ## Credits 
 - I have used stack overflow for help writing the code like the machine learning (https://stackoverflow.com/questions)
 - I have used ChatGPT and CoPilot to help me fix code that I was struggling to fix
@@ -111,12 +112,3 @@ Scatter Graphs
 - I have asked Neil Lenus, who is a personal friend, to help me work out how to shrink the dataset to a more manageable size
 - I have asked Emma and Neil (two staff memebers from Code Institute) for help as I had an issue pushing my commits up to github
 - I have watched this video (https://www.youtube.com/watch?v=VaOhNqNtGGE&t=1s) to help me learn Power Bi
-
-
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
