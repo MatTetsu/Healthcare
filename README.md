@@ -46,10 +46,8 @@ I did also consider dropping the doctor and hospital columns for ethics reasons,
 
 
 ## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
-* Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
-* How were data insights communicated to technical and non-technical audiences?
-* Explain how the dashboard was designed to communicate complex data insights to different audiences. 
+<img width="1431" height="806" alt="image" src="https://github.com/user-attachments/assets/39aecfc7-aaf9-48d1-b75a-28af92d7fd2b" />
+
 
 ## Unfixed Bugs
 Within the dataset, there were a few issues that I missed when picking the dataset:
