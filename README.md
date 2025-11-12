@@ -1,25 +1,36 @@
-# Project XYZ
+# Healthcare trends prediction
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
+This healthcare project aims to predict if other paitents are likely to get a medical condition by looking at common trends within this dataset
 
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
+The dataset I chose was (https://www.kaggle.com/datasets/prasad22/healthcare-dataset) despite being 50,000 rows long I shortened it to 10,000
 
 
 ## Business Requirements
-* Describe your business requirements
+The business goal of this dataset is to predict other patients likelyhood to get a certain medical condition to help give them the correct attention.
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+People with certain medical conditions tend to go more to certain insurance providers
+
+People with certain medical conditions get billed differently
+
+People with certain blood types are more likely to get a medical conditions
+
+Elderly people are charged more than younger people
+
 
 ## Project Plan
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
+* Extract, Transform, Load: Cleaning the data, by checking for missing values, checking for duplicates, and correcting data types.
+* Exploratory Data Analysis: Understanding characteristics, distributions, and relationships within the dataset.
+* Statistical Analysis: Hypothesis testing to validate inital assumptions about feature relationships.
+* Feature Engineering: Adding additional features to the dataset to help with visualisations, Age Ranges, Length of Stay
+* Machine Learning: Training and evaluating baseline predictive models.
+* Dashboarding: Making interactive visualisations in PowerBi.
+* Conclusions: Summarising key findings and providing action recmmendations.
+
 
 ## The rationale to map the business requirements to the Data Visualisations
 * List your business requirements and a rationale to map them to the Data Visualisations
@@ -87,7 +98,31 @@ VS Code
 - ChatGPT to help fix code that was not working
 - CoPilot to help fix code that was not working
 
+## Visualisations:
 
+Box Plots:
+- Billing amount ranges separated by age ranges
+- Billing amount ranges separated by insurance provider
+- Billing amount ranges separated by medical condition
+
+Bar Graphs:
+- Medical conditions separated by blood type
+- Blood type separated by medical condition
+- Age range separated by insurance provider
+- Medical conditions separated by insurance provider
+- Insurance provider separated by medical conditions
+
+Pie Charts
+- Medical conditions
+- Age Ranges
+- Insurance Provider
+- Blood Type
+
+Scatter Graphs
+- Billing amount Seperated  by Age
+
+3D Scatter Graphs
+- Date of admission by Discharge Date, and Length of stay, coloured by age ranges
 
 ## Credits 
 - I have used stack overflow for help writing the code like the machine learning (https://stackoverflow.com/questions)
@@ -95,6 +130,8 @@ VS Code
 - I have used he Code Institute LMS for the visualisations within the notebook
 - I have asked Neil Lenus, who is a personal friend, to help me work out how to shrink the dataset to a more manageable size
 - I have asked Emma and Neil (two staff memebers from Code Institute) for help as I had an issue pushing my commits up to github
+- I have watched this video (https://www.youtube.com/watch?v=VaOhNqNtGGE&t=1s) to help me learn Power Bi
+
 
 ### Content 
 
