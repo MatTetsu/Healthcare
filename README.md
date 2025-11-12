@@ -51,6 +51,11 @@ There is also an anomaly within the billing amount, which has skewed the billing
 This is the first page, which has visualisations linked to blood type. With a pie chart to show the spread of different blood types, this allows us to eyeball if there is too much of a certain bloodtype, so we understand that the specific blood type is not skewing the visualisations by being bigger than others. Next to it we have a Bar graph seperated by medical conditions, this allows us to see if there is a common medical condition with a blood type, for example we can see that cancer is very common with people with o+ blood type. The box plot allows us to see the bounds that people with certain blood types had to pay.
 <img width="1425" height="790" alt="image" src="https://github.com/user-attachments/assets/287b9bad-ed46-4ce7-8fa7-e6142eba7f2d" />
 This is the second page, which has visualisations linked to medical conditions. The pie chart, again, allows us to see if there is any statical biases because there is too many of a certain medical condition, like the blood type one, there is not. There are 2 bar charts here, the first is an inverse of the one on the blood type one, this groups the data differently. The other bar chart is for what medication was given to people with a medical condition, to see what helps certain medical conditions more. lastly is a box plot to help us find the bounds of what people had to pay linked to their medical conditions.
+<img width="1426" height="656" alt="image" src="https://github.com/user-attachments/assets/bb1dd4ae-4e83-4dde-a5b9-8443d521e1bc" />
+<img width="701" height="634" alt="image" src="https://github.com/user-attachments/assets/60abd2bf-8487-48ef-9080-8deaa56828ca" />
+These here, do not help with the business requirement of allowing us to predict people getting medical conditions, but instead allow us to know how long someone stayed in the hospital for, depending on how ugently they were admited, and the range of how much they were billed, depending on how long they were in there for.
+
+
 
 
 
