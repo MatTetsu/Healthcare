@@ -99,24 +99,29 @@ VS Code
 - CoPilot to help fix code that was not working
 
 ## Visualisations:
-##Box Plots:
+
+Box Plots:
 - Billing amount ranges separated by age ranges
 - Billing amount ranges separated by insurance provider
 - Billing amount ranges separated by medical condition
-##Bar Graphs:
+
+Bar Graphs:
 - Medical conditions separated by blood type
 - Blood type separated by medical condition
 - Age range separated by insurance provider
 - Medical conditions separated by insurance provider
 - Insurance provider separated by medical conditions
-## Pie Charts
+
+Pie Charts
 - Medical conditions
 - Age Ranges
 - Insurance Provider
 - Blood Type
-## Scatter Graphs
+
+Scatter Graphs
 - Billing amount Seperated  by Age
-## 3D Scatter Graphs
+
+3D Scatter Graphs
 - Date of admission by Discharge Date, and Length of stay, coloured by age ranges
 
 ## Credits 
